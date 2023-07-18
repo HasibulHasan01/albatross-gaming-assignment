@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+
+/* navbar styles */
+.navbar-main-class{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 228, 196, 0.449);
+}
+
+
+.nav-img-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+
+
+.nav-img-logo img{
+    width: 30%;
+    height: 30%;
+}
+
+.nav-img-logo h1{
+    font-family: 'Creepster', cursive;
+    font-size: 3rem;
+    margin-left: 1rem;
+    color: #0B0223;
+}
+
+.A{
+    color: rgba(247, 80, 108, 0.951);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 1rem;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.follow-logos{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 10px;
+}
+
+.logos{
+    width: 20px;
+    margin-left: 10px;
+}
