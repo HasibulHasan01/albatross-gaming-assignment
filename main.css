@@ -187,6 +187,103 @@ body{
 }
 
 
+/* online games area styles */
+.online-games-text-content{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.online-games-text-content h2{
+    font-size: 3rem;
+    font-family: 'Creepster', cursive;
+    margin-bottom: 0;
+}
+
+
+.funny{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.online-games-img-container{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+
+.online-img{
+    width: 15%;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+
+.online-img-hover{
+    width: 4%;
+    position: relative;
+    right: 10.93rem;
+    bottom: 5rem;
+    border: 2px solid red;
+    /* visibility: hidden; */
+}
+
+
+/* .online-img:hover{
+    background-image: url(./images/play-button.png);
+    display: none;
+} */
+
+
+/* play instantly area styles */
+.play-instantly-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.play-instantly-h2{
+    font-size: 3rem;
+    font-family: 'creepster', cursive;
+    text-align: end;
+}
+
+
+.play-p{
+    text-align: end;
+}
+
+
+.play-instantly-span{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.play-instantly-image{
+    display: flex;
+    justify-content: end;
+}
+
+
+.man-on-horse{
+    width: 40%;
+}
+
+
+.angela{
+    width: 20%;
+    height: 10%;
+    position: relative;
+    left: -402px;
+    top: 200px;
+}
 
 
 
@@ -256,6 +353,22 @@ body{
     .we-are-gamer-contents h3{
         font-size: 1rem;
     }
+    .play-instantly-section-container{
+        flex-direction: column-reverse;
+    }
+    .angela{
+        width: 20%;
+        height: 10%;
+        position: relative;
+        left: -220px;
+        top: 100px;
+    }
+    .play-instantly-h2{
+        text-align: center;
+    }
+    .play-p{
+        text-align: center;
+    }
 }
 
 
@@ -308,5 +421,12 @@ body{
     }
     .we-are-gamer-contents h3{
         font-size: 1rem;
+    }
+    .angela{
+        width: 20%;
+        height: 10%;
+        position: relative;
+        left: -220px;
+        top: 100px;
     }
 }
