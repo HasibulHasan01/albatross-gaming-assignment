@@ -210,32 +210,74 @@ body{
 
 
 .online-games-img-container{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 6rem;
 }
 
 
+.container-images-two{
+    position: relative;
+}
+
+
 .online-img{
-    width: 15%;
-    margin-right: 2rem;
+    width: 80%;
     cursor: pointer;
 }
 
 
-.online-img-hover{
-    width: 4%;
-    position: relative;
-    right: 10.93rem;
-    bottom: 5rem;
-    border: 2px solid red;
-    /* visibility: hidden; */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: rgba(0, 0, 0, 0.336);
+    border-radius: 15px;
 }
 
 
-/* .online-img:hover{
-    background-image: url(./images/play-button.png);
-    display: none;
-} */
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-50%, -49%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    text-decoration: none;
+    color: #f945a2;
+}
+
+
+.online-img-hover{
+    width: 28%;
+}
+
+
+.container-images-two:hover .overlay {
+    opacity: 1;
+}
+
+
+.watch{
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* play instantly area styles */
@@ -318,8 +360,14 @@ body{
 
 .action:hover{
     border: 2px solid #FF42A5;
-    
     border-radius: 3rem;
+}
+
+
+
+/* footer section styles */
+.footer-img-logo{
+    
 }
 
 
@@ -421,6 +469,16 @@ body{
         font-size: 16px;
         font-family: 'creepster', cursive;
         text-align: center;
+    }
+    .online-games-img-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .online-img{
+        margin-bottom: 2rem;
+    }
+    .overlay{
+        margin-bottom: 2rem;
     }
 }
 
