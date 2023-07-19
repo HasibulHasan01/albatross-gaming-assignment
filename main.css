@@ -243,6 +243,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 8rem;
 }
 
 
@@ -286,6 +287,40 @@ body{
 }
 
 
+/* Categories area styles */
+.categories{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+
+.action img{
+    margin-right: 1rem;
+    width: 20%;
+    height: 80%;
+}
+
+
+.action h3{
+    font-size: 20px;
+    font-family: 'creepster', cursive;
+}
+
+
+.action:hover{
+    border: 2px solid #FF42A5;
+    
+    border-radius: 3rem;
+}
 
 
 
@@ -367,6 +402,24 @@ body{
         text-align: center;
     }
     .play-p{
+        text-align: center;
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .action{
+        padding: 5px 20px;
+        flex-direction: column;
+    }
+    .action img{
+        /* margin-right: 1rem; */
+        width: 40%;
+        height: 70%;
+    }
+    .action h3{
+        font-size: 16px;
+        font-family: 'creepster', cursive;
         text-align: center;
     }
 }
